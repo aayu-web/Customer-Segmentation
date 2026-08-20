@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 kmeans = joblib.load("kmeans_model.pkl")
-scaler = joblib.load(scaler (1).pkl")
+scaler = joblib.load("scaler (1).pkl")
 st.title("Customer Segmentation App")
 st.write("Enter customer details to predict their segment.")
 
